@@ -1,13 +1,26 @@
 body {
-	max-width: 75em;
+	max-width: 60em;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+p, em, strong {
+	font-family: "DeJaVu Serif", "Times New Roman", serif
 }
 
 footer {
 	margin-top: 2em;
 	font-size: 75%;
 	font-style: italic;
+}
+
+h1, h2, h3 {
+	font-family: "DeJaVu Sans-Serif", Arial, sans-serif;
+	margin-bottom: 0;
+}
+
+#technical-expertise {
+	width: 40em;
 }
 
 .left {
