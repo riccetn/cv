@@ -19,6 +19,24 @@ h1, h2, h3 {
 	margin-bottom: 0;
 }
 
+dt {
+	font-weight: bold;
+	width: 5em;
+	text-align: right;
+	margin-right: 0.2em;
+	float: left;
+	clear: left;
+}
+
+dt:after {
+	content: ":";
+}
+
+dd {
+	display: block;
+	margin-left: 0;
+}
+
 #technical-expertise {
 	width: 40em;
 }
